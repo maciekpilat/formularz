@@ -1,0 +1,84 @@
+    #form_wrapper {
+        background-color: #213b50;
+        width: 400px;
+        color: white;
+    }
+    
+    body form #form_wrapper input {
+        width: 80%;
+        height: 30px;
+        margin: 3%;
+        text-align: center;
+        position: relative;
+        left: 5%;
+        background-color: #2b4a64;
+        border-color: #2b4a64;
+        border-width: 0;
+    }
+
+body form #form_wrapper input:focus {
+    color: white;
+    }
+    
+     ::-webkit-input-placeholder {
+        color: white;
+    }
+    
+    body form #form_wrapper select {
+        color: white;
+        width: 80%;
+        height: 30px;
+        margin: 3%;
+        position: relative;
+        left: 5%;
+        background-color: #2b4a64;
+        border-color: #2b4a64;
+        border-width: 0;
+    }
+    
+    body form #form_wrapper p {
+        text-align: center;
+    }
+    
+    body form #form_wrapper #radio {
+        color: white;
+        text-align: center;
+    }
+    
+    body form #form_wrapper #radio input {
+        position: relative;
+        left: 0%;
+        width: 10%;
+        height: 20px;
+        margin: 0px;
+    }
+    
+    body form #form_wrapper textarea {
+        width: 80%;
+        background-color: #2b4a64;
+        border-color: #2b4a64;
+        border-width: 0;
+        color: white;
+        font-weight: bolder;
+        margin: 3%;
+        position: relative;
+        left: 5%;
+    }
+    
+    body form #form_wrapper #zgoda input {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        left: -3%;
+    }
+    
+    #form_wrapper input[type="submit"] {
+        position: relative;
+        left: 0%;
+        width: 30%;
+        height: 50px;
+        color: white;
+        font-weight: bolder;
+        background-color: greenyellow;
+        border-color: greenyellow;
+    }
