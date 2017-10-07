@@ -3,6 +3,13 @@
         width: 400px;
         color: white;
     }
+
+body form #form_wrapper label{
+    display: block;
+    text-align: center;
+    line-height: 100%;
+    font-size: .85em;
+}
     
     body form #form_wrapper input {
         width: 80%;
